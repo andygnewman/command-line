@@ -1,1 +1,4 @@
 The mv command is used to move a file with the parameters current_location/filename and new location/filename
+For example mv myFile ../myFile
+This would move myFile from the current working directory to the parent directory retaining the name myFile.
+You can change the filename, plus if you don't change the location it will effectively rename the name.
