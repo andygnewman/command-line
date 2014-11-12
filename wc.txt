@@ -1,0 +1,7 @@
+The wc command allows you to count the lines, words and characters in an output (eg. a file), but also from the output passed
+to it via a preceeding stream (pipe)
+It can be used on it's own or with parameters
+  wc      returns 3 numbers; lines, words, characters
+  wc -l   returns just the number of lines
+  wc -w   returns just the number of words
+  wc -c   returns just the number of characters
