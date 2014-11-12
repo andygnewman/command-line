@@ -1,0 +1,7 @@
+The cp command means copy file and has two parameters current location/file name (if location plan defaults to working directory)
+and new location/new file name
+For example 
+    cp oldFile newFile would create a copy of oldFile, called newFile, in the current working directory
+If you wanted to copy it into a different location (eg. parent directory) you could do;
+    cp oldFile ../newFile
+    
