@@ -1,0 +1,6 @@
+The grep command allows you to filter according to text within a file or stream output.
+It has two parameters; the attribute (a regular expression) you are searching for and the files you are looking within.
+For example
+    grep hello '*.txt'   looks for the text hello in files with a .txt extension
+    ls | grep txt        looks for the text txt within the output of the ls (list) command in the current directory
+A very useful command for filtering
